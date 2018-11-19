@@ -1,6 +1,15 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+GenderAndAgeDemoAPK/app/release/
 GenderAndAgeDemoAPK/.idea/
+GenderAndAgeDemoAPK/build/
+GenderAndAgeDemoAPK/local.properties
+AttDEMO/.idea/
+AttDEMO/build/
