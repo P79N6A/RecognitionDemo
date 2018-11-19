@@ -87,13 +87,13 @@ public class MainActivity extends BaseActivity implements View.OnClickListener ,
     }
 
     private void prepareActivityString() {
-        mStringArrayList.add(getResources().getString(R.string.yuvregist));
-        mStringArrayList.add(getResources().getString(R.string.bmpregist));
-        mStringArrayList.add(getResources().getString(R.string.detect));
-        mStringArrayList.add(getResources().getString(R.string.config));
-        mStringArrayList.add(getResources().getString(R.string.list));
-        mStringArrayList.add(getResources().getString(R.string.bulkregist));
-        mStringArrayList.add(getResources().getString(R.string.authorization));
+        mStringArrayList.add(getResources().getString(R.string.yuvregist));//相机注册
+        mStringArrayList.add(getResources().getString(R.string.bmpregist));//图片注册
+        mStringArrayList.add(getResources().getString(R.string.detect));//探测
+        mStringArrayList.add(getResources().getString(R.string.config));//配置
+        mStringArrayList.add(getResources().getString(R.string.list));//注册列表
+        mStringArrayList.add(getResources().getString(R.string.bulkregist));//批量注册
+        mStringArrayList.add(getResources().getString(R.string.authorization));//授权
         mActivityAdapter.replaceData(mStringArrayList);
     }
 
