@@ -14,7 +14,7 @@ import android.widget.TextView;
 import com.aiwinn.base.activity.BaseActivity;
 import com.aiwinn.base.log.LogUtils;
 import com.aiwinn.base.util.ToastUtils;
-import com.aiwinn.faceattendance.R;
+import com.lxl.shop.R;
 import com.lxl.shop.adapter.BulkRegistAdapter;
 import com.lxl.shop.bean.BulkRegistBean;
 import com.lxl.shop.common.AttConstants;

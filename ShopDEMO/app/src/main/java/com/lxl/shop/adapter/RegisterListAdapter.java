@@ -3,7 +3,7 @@ package com.lxl.shop.adapter;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.aiwinn.faceattendance.R;
+import com.lxl.shop.R;
 import com.lxl.shop.bean.RegisterListBean;
 import com.lxl.shop.ui.v.RegisterListView;
 import com.aiwinn.facedetectsdk.bean.UserBean;

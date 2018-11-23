@@ -3,7 +3,7 @@ package com.lxl.shop.adapter;
 import android.widget.ImageView;
 
 import com.aiwinn.base.log.LogUtils;
-import com.aiwinn.faceattendance.R;
+import com.lxl.shop.R;
 import com.lxl.shop.bean.DetectFaceBean;
 import com.lxl.shop.ui.p.DetectPresenterImpl;
 import com.bumptech.glide.Glide;

@@ -16,7 +16,7 @@ import com.aiwinn.base.util.FileUtils;
 import com.aiwinn.base.util.PermissionUtils;
 import com.aiwinn.base.util.ToastUtils;
 import com.lxl.shop.AttApp;
-import com.aiwinn.faceattendance.R;
+import com.lxl.shop.R;
 import com.lxl.shop.adapter.ActivityAdapter;
 import com.lxl.shop.common.AttConstants;
 import com.aiwinn.facedetectsdk.FaceDetectManager;

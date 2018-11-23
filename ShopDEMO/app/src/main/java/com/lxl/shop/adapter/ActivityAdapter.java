@@ -1,8 +1,8 @@
 package com.lxl.shop.adapter;
 
-import com.aiwinn.faceattendance.R;
 import com.chad.library.adapter.base.BaseItemDraggableAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
+import com.lxl.shop.R;
 
 import java.util.ArrayList;
 

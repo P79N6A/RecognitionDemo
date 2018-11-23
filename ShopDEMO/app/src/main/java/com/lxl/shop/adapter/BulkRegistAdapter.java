@@ -2,7 +2,7 @@ package com.lxl.shop.adapter;
 
 import android.widget.ImageView;
 
-import com.aiwinn.faceattendance.R;
+import com.lxl.shop.R;
 import com.lxl.shop.bean.BulkRegistBean;
 import com.lxl.shop.ui.m.BulkRegistActivity;
 import com.lxl.shop.ui.p.BulkRegistPresenterImpl;

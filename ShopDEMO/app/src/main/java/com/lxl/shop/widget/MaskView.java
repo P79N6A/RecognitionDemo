@@ -17,7 +17,7 @@ import android.widget.ImageView;
 
 import com.aiwinn.base.log.LogUtils;
 import com.aiwinn.base.util.ScreenUtils;
-import com.aiwinn.faceattendance.R;
+import com.lxl.shop.R;
 import com.lxl.shop.common.AttConstants;
 import com.lxl.shop.ui.p.DetectPresenterImpl;
 import com.aiwinn.facedetectsdk.bean.FaceBean;

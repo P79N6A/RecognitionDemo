@@ -14,7 +14,7 @@ import com.aiwinn.base.gallery.DefaultCallback;
 import com.aiwinn.base.gallery.EasyImage;
 import com.aiwinn.base.util.StringUtils;
 import com.aiwinn.base.util.ToastUtils;
-import com.aiwinn.faceattendance.R;
+import com.lxl.shop.R;
 import com.lxl.shop.ui.p.BmpRegistPresenter;
 import com.lxl.shop.ui.p.BmpRegistPresenterImpl;
 import com.lxl.shop.ui.p.BulkRegistPresenterImpl;

@@ -19,6 +19,16 @@ public class AddCustomerPage extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.shop_page_add_customer);
+        initView();
+        initAction();
+    }
+
+    private void initAction() {
+
+    }
+
+    private void initView() {
+        title = (StockTitleView) findViewById(R.id.page_title);
     }
 
     @Override

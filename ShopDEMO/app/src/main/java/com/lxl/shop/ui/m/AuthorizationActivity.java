@@ -7,7 +7,7 @@ import android.widget.TextView;
 import com.aiwinn.base.activity.BaseActivity;
 import com.aiwinn.base.util.ToastUtils;
 import com.lxl.shop.AttApp;
-import com.aiwinn.faceattendance.R;
+import com.lxl.shop.R;
 import com.lxl.shop.common.AttConstants;
 import com.aiwinn.facedetectsdk.FaceDetectManager;
 import com.aiwinn.facedetectsdk.common.Status;

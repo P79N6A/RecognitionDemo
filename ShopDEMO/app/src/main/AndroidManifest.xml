@@ -19,7 +19,7 @@
         android:roundIcon="@drawable/att_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.lxl.shop.ui.m.MainActivity"
+        <activity android:name="com.lxl.shop.page.MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

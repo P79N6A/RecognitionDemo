@@ -25,7 +25,7 @@ import com.aiwinn.base.util.ToastUtils;
 import com.aiwinn.base.widget.CameraInterface;
 import com.aiwinn.deblocks.utils.FeatureUtils;
 import com.lxl.shop.AttApp;
-import com.aiwinn.faceattendance.R;
+import com.lxl.shop.R;
 import com.lxl.shop.adapter.DetectAdapter;
 import com.lxl.shop.bean.DetectFaceBean;
 import com.lxl.shop.common.AttConstants;

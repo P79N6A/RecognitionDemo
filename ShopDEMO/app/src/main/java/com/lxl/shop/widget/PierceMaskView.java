@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.aiwinn.base.log.LogUtils;
-import com.aiwinn.faceattendance.R;
+import com.lxl.shop.R;
 
 /**
  * @author lxl
