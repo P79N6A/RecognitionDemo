@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".ui.m.MainActivity">
+    tools:context="com.lxl.shop.ui.m.MainActivity">
 
     <TextView
         android:id="@+id/version"

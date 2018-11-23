@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.aiwinn.faceattendance.widget.PierceMaskView
+    <com.lxl.shop.widget.PierceMaskView
         android:id="@+id/pmv_register"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
