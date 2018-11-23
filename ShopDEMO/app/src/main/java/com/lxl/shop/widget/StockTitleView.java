@@ -35,14 +35,14 @@ public class StockTitleView extends RelativeLayout {
 
     private void init(Context context, AttributeSet attrs) {
         this.mContext = context;
-//        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.StockTitleView);
-//        String title = a.getString(R.styleable.StockTitleView_stock_title_text_msg);
-//        int titleStyle = a.getResourceId(R.styleable.StockTitleView_stock_title_text_style, R.style.text_18_ffffff);
-//        a.recycle();
-//        inflate(context, R.layout.shop_widget_basetitle_view, this);
-//        initView();
-//        setTitle(title, titleStyle);
-//        initListener();
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.StockTitleView);
+        String title = a.getString(R.styleable.StockTitleView_stock_title_text_msg);
+        int titleStyle = a.getResourceId(R.styleable.StockTitleView_stock_title_text_style, R.style.text_18_ffffff);
+        a.recycle();
+        inflate(context, R.layout.shop_widget_basetitle_view, this);
+        initView();
+        setTitle(title, titleStyle);
+        initListener();
     }
 
     private void initListener() {

@@ -7,43 +7,37 @@
 
     <com.lxl.shop.widget.StockTitleView
         android:id="@+id/page_title"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:layout_alignParentTop="true"
-        app:stock_title_text_msg="用户注册" />
+        android:background="@color/shop_blue"
+        app:stock_title_text_msg="新建客户" />
 
     <LinearLayout
         android:id="@+id/bottomlayout"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
-        android:background="#d2d2d2"
-        android:gravity="right"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/go_top_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:text="回顶部" />
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
 
         <Button
             android:id="@+id/submit"
-            android:layout_width="wrap_content"
+            style="@style/text_14_ffffff"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:text="提交" />
+            android:background="@drawable/blue_button"
+            android:text="保存" />
     </LinearLayout>
 
 
     <include
-        android:id="@+id/report_record2_fill"
-        layout="@layout/shop_register_view"
+        layout="@layout/shop_view_register_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/bottomlayout"

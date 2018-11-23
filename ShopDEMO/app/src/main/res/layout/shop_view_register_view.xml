@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/shop_register_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/user_icon_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user_icon_view_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="头像" />
+
+            <ImageView
+                android:id="@+id/user_icon_view_img"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/admin_icon" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <com.lxl.shop.widget.StockTextView
+                android:id="@+id/user_info_gender_man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男"
+                app:stock_text_drawable_direction="stock_left"
+                app:stock_text_drawable_src="@drawable/gender_man" />
+
+            <com.lxl.shop.widget.StockTextView
+                android:id="@+id/user_info_gender_woman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="女"
+                app:stock_text_drawable_direction="stock_left"
+                app:stock_text_drawable_src="@drawable/gender_woman" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/add_customer_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.lxl.shop">
+    package="com.lxl.shop">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
 
     <application
         android:name="com.lxl.shop.AttApp"
@@ -19,30 +19,46 @@
         android:roundIcon="@drawable/main_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.lxl.shop.page.MainActivity"
+        <activity
+            android:name="com.lxl.shop.page.MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.lxl.shop.ui.m.ConfigActivity"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-        <activity android:name="com.lxl.shop.ui.m.DetectActivity"
-                  android:configChanges="screenSize|keyboardHidden|orientation"
-                  android:theme="@style/full"/>
-        <activity android:name="com.lxl.shop.ui.m.YuvRegistActivity"
-                  android:configChanges="screenSize|keyboardHidden|orientation"
-                  android:theme="@style/full"/>
-        <activity android:name="com.lxl.shop.ui.m.RegisterListActivity"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-        <activity android:name="com.lxl.shop.ui.m.BmpRegistActvity"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-        <activity android:name="com.lxl.shop.ui.m.BulkRegistActivity"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-        <activity android:name="com.lxl.shop.ui.m.AuthorizationActivity"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name="com.lxl.shop.page.AddCustomerPage"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity
+            android:name="com.lxl.shop.page.ShopRecordPage"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity
+            android:name="com.lxl.shop.ui.m.ConfigActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.lxl.shop.ui.m.DetectActivity"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:theme="@style/full" />
+        <activity
+            android:name="com.lxl.shop.ui.m.YuvRegistActivity"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:theme="@style/full" />
+        <activity
+            android:name="com.lxl.shop.ui.m.RegisterListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.lxl.shop.ui.m.BmpRegistActvity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.lxl.shop.ui.m.BulkRegistActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.lxl.shop.ui.m.AuthorizationActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 
 </manifest>
