@@ -21,6 +21,10 @@ public class AddCustomerPage extends Activity {
         setContentView(R.layout.shop_page_add_customer);
         initView();
         initAction();
+        initData();
+    }
+
+    private void initData() {
     }
 
     private void initAction() {
